@@ -1,0 +1,28 @@
+h1 {
+    background-color: #ffffff;
+    border: solid;
+    border-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+.yourname {
+    text-align: center;
+    padding: 25px 0;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 350px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.content{
+    background-color: #ffffff;
+    border: solid;
+    border-color: #dddddd;
+}
