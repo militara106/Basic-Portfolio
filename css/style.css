@@ -1,13 +1,18 @@
 h1 {
     background-color: #ffffff;
-    border: solid;
+    border: hidden;
+    border-bottom: solid;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2{
+.aboutme {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    border: hidden;
+    border-bottom: solid;
+    border-color: #cccccc;
+    padding-bottom: 10px;
 }
 .yourname {
     text-align: center;
@@ -15,14 +20,20 @@ h2{
     background: #4aaaa5;
     color: #ffffff;
     width: 350px;
+    
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
+    line-height: 2;
+    color: #777777;
+    background-image: url("images/background.png");
 }
 
 .content{
     background-color: #ffffff;
-    border: solid;
+    border: 1px solid;
     border-color: #dddddd;
-}
+    padding: 1px 30px 20px 30px;
+    width: 960px;
+    margin: auto;
+} 
