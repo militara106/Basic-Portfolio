@@ -5,12 +5,13 @@ h1 {
 .gridcontainer{
     display: grid;
     grid-template-columns: auto 960px auto;
-    grid-auto-rows: auto 30px auto auto;
+    grid-auto-rows: 117px 1px auto 1px 80px;
     position: absolute;
     width: 100vw;
     left: 0;
     top: 0;
     right: 0;
+    min-height: 100%;
 }
 
 .header {
@@ -21,7 +22,7 @@ h1 {
     border-bottom: solid;
     border-color: #cccccc;
     margin-top: -21px;
-    height: 97.5%;
+    /*height: 97.5%;*/
 }
 
 
@@ -56,7 +57,8 @@ body{
     color: #777777;
     background-image: url("../images/papyrus.png");
     /*background-color: blue;*/
-    background-position: top 900px;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -69,6 +71,7 @@ body{
     margin: auto;
     grid-column: 2;
     grid-row: 3;
+    font-size: 18px;
 } 
 
 .aboutme {
@@ -82,7 +85,6 @@ body{
 }
 
 .button {
-    transition: 0.4s;
     border: none;
     text-align: center;
     display: inline-block;
@@ -91,11 +93,25 @@ body{
     font-size: inherit;
     text-decoration: none;
     color: inherit;
+    font-size: inherit;
 }
 
 .button:hover{
-    font-size: 25px;
+    transition:0.4s;
+    transform: scale(1.2);
     color: inherit;
     text-decoration: none;
-    font-weight: strong;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    background: gray;
+    grid-column: span 3;
+    grid-row: 5;
+    padding-top: 20px;
+    align-self: end;
+    font-size: 12px;
 }
