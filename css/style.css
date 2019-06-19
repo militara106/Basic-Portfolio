@@ -1,6 +1,10 @@
 /*BASE PAGE CSS START */
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 body{
@@ -12,6 +16,14 @@ body{
     height: 100%;
     width: 100%;
 } 
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 /* GRID CSS, 3x5*/
 .gridcontainer{
