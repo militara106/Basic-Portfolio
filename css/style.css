@@ -17,7 +17,7 @@ body{
 .gridcontainer{
     display: grid;
     grid-template-columns: auto 960px auto;
-    grid-template-rows: 117px 1px auto 1px 80px;
+    grid-template-rows: 117px 30px auto 30px 80px;
     position: absolute;
     width: 100vw;
     left: 0;
@@ -148,6 +148,7 @@ footer{
 .gridPic:hover{
     box-shadow: 0 12px 16px 0 black;
     transition:0.4s;
+    cursor: pointer;
 }
 
 .gridPic .portfolioText{
@@ -164,3 +165,43 @@ footer{
     width: 250px;
     height: 40px;
 }
+/*PORTFOLIO END*/
+
+/*CONTACT START*/
+
+input[type=submit]{
+    background: #4aaaa5;
+    color: white;
+    width: 125px;
+    padding: auto 0;
+    text-align: center;
+    border: solid 1px;
+    border-color:#4aaaa5;
+    text-decoration: none;
+    font-size: 18px;
+    height: 45px;
+}
+
+input[type=submit]:hover{
+    text-decoration: none;
+    background: white;
+    color: #4aaaa5;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 18px;
+    resize: vertical;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+label{
+    font-size: 20px;
+}
+
+/*CONTACT END*/
