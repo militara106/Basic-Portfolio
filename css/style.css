@@ -217,4 +217,7 @@ label{
     font-size: 25px;
 }
 
+::placeholder{
+    color: #cccccc ;
+}
 /*CONTACT END*/
